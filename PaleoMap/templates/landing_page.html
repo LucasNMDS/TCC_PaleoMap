@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lp/main.css') }}">
+    <script src="https://kit.fontawesome.com/f230fcd276.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>FossilMap - Descobrir Fósseis</title>
+</head>
+<body>
+
+    <div class="page" id="page1">
+        <div class="container">
+            {% include 'lp_components/2. header.html' %}
+            {% include 'lp_components/3. hero.html' %}
+        </div>
+    </div>
+    
+    <div class="page" id="page9">
+        <div class="container">
+            {% include 'lp_components/5. global.html' %}
+        </div>
+    </div>
+    
+    <div class="page" id="page2">
+        <div class="container">
+            {% include 'lp_components/6. discoveries.html' %}
+        </div>
+    </div>
+    
+    <div class="page" id="page3">
+        <div class="container">
+            {% include 'lp_components/8. geological.html' %}
+        </div>
+    </div>
+    
+    <div class="page" id="page4">
+        <div class="container">
+            {% include 'lp_components/9. species.html' %}
+        </div>
+    </div>
+
+    <div class="page" id="page5">
+        <div class="container">
+            {% include 'lp_components/13. virtual.html' %}
+        </div>
+    </div>
+    
+    <div class="page" id="page6">
+        <div class="container">
+            {% include 'lp_components/12. educational.html' %}
+            {% include 'lp_components/10. tools.html' %}
+        </div>
+    </div>
+    
+    <div class="page" id="page7">
+        <div class="container">
+            {% include 'lp_components/14. community.html' %}
+            {% include 'lp_components/15. members.html' %}
+        </div>
+    </div>
+    
+    <div class="page" id="page8">
+        <div class="container">
+            {% include 'lp_components/16. newsletter.html' %}
+        </div>
+    </div>
+
+    {% include 'lp_components/17. footer.html' %}
+    
+</body>
+</html>

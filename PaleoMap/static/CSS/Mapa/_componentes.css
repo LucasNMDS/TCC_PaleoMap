@@ -1,0 +1,116 @@
+#filtro-periodo {
+    padding-top: 15px;
+}
+
+#slider {
+    margin: 25px 5px 15px 5px;
+}
+
+#label-range {
+    font-weight: 600;
+    color: #ff9900;
+    text-align: center;
+    font-size: 0.9rem;
+    display: block;
+    margin-top: -10px;
+}
+
+.noUi-target {
+    height: 6px;
+    background: #e0e0e0;
+    border-radius: 3px;
+    border: none;
+}
+
+.noUi-connect {
+    background: #ff9900;
+    height: 6px;
+}
+
+.noUi-handle {
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    top: -8px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    cursor: grab;
+}
+
+.noUi-tooltip {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: none;
+    background: #2c3e50;
+    color: white;
+}
+
+.botoes-container { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 12px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.botoes-linha {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.botoes-container button {
+    padding: 12px; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    color: white; 
+    font-weight: 600; 
+    font-size: 0.9rem; 
+    transition: background-color 0.2s;
+    flex-grow: 1;
+}
+#compararDistancia { background-color: #ff9900; }
+#compararDistancia:hover { background-color: #e68a00; }
+
+#exibirSelecionados { background-color: #337bff; }
+#exibirSelecionados:hover { background-color: #2a6edc; }
+
+#limparSelecionados { background-color: #95a5a6; }
+#limparSelecionados:hover { background-color: #7f8c8d; }
+
+
+.parentes-container {
+    margin-top: 10px; 
+    font-size: 12px; 
+    border-top: 1px solid #eee; 
+    padding-top: 8px; 
+}
+
+.parentes-container a {
+    display: inline-block; 
+    margin-right: 5px; 
+    margin-bottom: 3px; 
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+.add-family-member {
+    color: #337bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.add-family-member:not(:last-child)::after {
+    content: "•";
+    color: #bbb;
+    margin: 0 6px;
+    text-decoration: none;
+}
+
+.add-family-member:hover {
+    text-decoration: underline;
+}
