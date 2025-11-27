@@ -1,0 +1,60 @@
+/* ==============================================
+   10. ESTILOS DE COMPONENTES REUTILIZÁVEIS
+   - Botões, links, ícones, etc.
+   ============================================== */
+
+.view-all-btn {
+    display: inline-block;
+    background-color: #ff9900;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.view-all-btn:hover {
+    background-color: #e68a00;
+}
+
+.tool-button-blue { background-color: #337bff; color: #fff; }
+.tool-button-blue:hover { background-color: #2a6edc; }
+.tool-button-green { background-color: #28a745; color: #fff; }
+.tool-button-green:hover { background-color: #218838; }
+.tool-button-purple { background-color: #8e44ad; color: #fff; }
+.tool-button-purple:hover { background-color: #7b3da1; }
+
+.request-access-btn {
+    display: inline-block;
+    background-color: #ff9900;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.request-access-btn:hover {
+    background-color: #e68a00;
+}
+
+.edu-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: #555;
+    transition: background-color 0.3s ease;
+}
+
+.edu-button:hover {
+    background-color: #f0f0f0;
+}
+

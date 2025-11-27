@@ -1,0 +1,209 @@
+/* ==============================================
+   9. ESTILOS DA SEÇÃO DE FERRAMENTAS DE PESQUISA
+   - Títulos, parágrafos e cards de ferramentas.
+   ============================================== */
+
+.research-tools-section {
+    text-align: center;
+}
+
+.research-tools-section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.research-tools-section p {
+    font-size: 18px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+.tool-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 80px; 
+}
+
+.tool-card {
+    background-color: #f8f9fa; 
+    border-radius: 15px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.tool-card-icon-3D {
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background-color: #337bff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.tool-card-icon-data {
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background-color: #28a745;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.tool-card-icon-educational {
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background-color: #8e44ad;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.tool-card-icon-3D i,
+.tool-card-icon-data i,
+.tool-card-icon-educational i {
+    font-size: 30px; 
+}
+
+.tool-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.tool-card p {
+    font-size: 14px;
+    color: #777;
+    margin: 0 0 25px 0;
+    line-height: 1.5;
+}
+
+.tool-button {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    color: #fff;
+}
+
+.tool-button-blue { background-color: #337bff; }
+.tool-button-green { background-color: #28a745; }
+.tool-button-purple { background-color: #8e44ad; }
+
+.platform-layout {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.platform-text-content {
+    flex: 1;
+    text-align: left;
+}
+
+.platform-text-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.platform-text-content p {
+    font-size: 16px;
+    color: #555;
+    margin: 0 0 30px 0;
+    max-width: none;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.features-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.feature-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ff9900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    flex-shrink: 0;
+}
+
+
+.feature-text h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.feature-text p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0 0 0;
+    line-height: 1.5;
+}
+
+.request-access-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ff9900;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.request-access-btn:hover {
+    background-color: #e68a00;
+}
+
+.platform-image {
+    flex: 1;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    height: 450px; 
+}
+
+.platform-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
