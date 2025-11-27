@@ -1,0 +1,246 @@
+/* ==============================================
+   8. ESTILOS DA SEÇÃO DO BANCO DE DADOS DE ESPÉCIES
+   - Seção principal e controles de filtro/busca.
+   ============================================== */
+
+.species-database-section {
+    text-align: center;
+}
+
+.section-header {
+    margin-bottom: 50px;
+}
+
+.species-database-section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.species-database-section p {
+    font-size: 18px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.species-grid-wrapper {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    padding: 30px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.database-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent; 
+    padding: 0; 
+    box-shadow: none; 
+    margin-bottom: 30px; 
+    width: 100%; 
+}
+
+.database-controls h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.control-group {
+    display: flex;
+    gap: 20px;
+}
+
+.database-controls .search-bar {
+    position: relative;
+    margin: 0;
+}
+
+.database-controls .search-bar input {
+    width: 250px;
+    padding: 10px 15px 10px 40px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+}
+
+.database-controls .fa-search {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.category-dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #f0f0f0;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 10px 40px 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 180px;
+}
+
+.material-icons {
+    position: absolute;
+    right: 15px;
+    top: 33%;
+    transform: translateY(-50%) rotate(90deg);
+    pointer-events: none;
+    width: 12px;
+    height: 12px;
+    color: #888;
+}
+
+.species-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    width: 100%;
+}
+
+.species-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.species-card:hover {
+    transform: translateY(-5px);
+}
+.species-card-image {
+    width: 100%;
+    height: 120px; 
+    object-fit: cover; 
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px;
+    display: block; 
+}
+
+.species-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    padding: 0; 
+    text-align: left;
+    transition: transform 0.3s ease;
+    overflow: hidden; 
+    position: relative; 
+}
+
+.dot-tria {
+    position: absolute;
+    top: 15px; 
+    right: 15px; 
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #5BC0DE;
+    border: 2px solid #fff;
+    z-index: 10;
+}
+
+.dot-jura {
+    position: absolute;
+    top: 15px; 
+    right: 15px; 
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #5CB85C;
+    border: 2px solid #fff;
+    z-index: 10;
+}
+
+.dot-cret {
+    position: absolute;
+    top: 15px; 
+    right: 15px; 
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #D9534F;
+    border: 2px solid #fff;
+    z-index: 10;
+}
+
+
+.dot-outros {
+    position: absolute;
+    top: 15px; 
+    right: 15px; 
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ff9900;
+    border: 2px solid #fff;
+    z-index: 10;
+}
+
+.species-info {
+
+    padding: 15px; 
+}
+
+.species-info h3 {
+    font-size: 16px; 
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+.species-description {
+    font-size: 12px !important;
+    color: #777;
+
+    margin-bottom: 8px; 
+    line-height: 1.4;
+    text-align: justify;
+    min-height: auto;
+}
+
+.species-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #999;
+    margin-top: 10px; 
+}
+
+.view-all-btn {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 30px; 
+    width: calc( (100% - (25px * 3) ) / 4 ); 
+    min-width: 200px; 
+}
+
+.view-all-btn:hover {
+    background-color: #e68a00;
+}

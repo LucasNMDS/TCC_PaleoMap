@@ -1,0 +1,93 @@
+/* ==============================================
+   15. ESTILOS DA SEÇÃO DE MEMBROS
+   - Layout, perfis de membros e botões.
+   ============================================== */
+
+.members-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    padding: 40px 60px;
+    margin-top: 60px;
+    text-align: left;
+    gap: 50px;
+}
+
+.members-text-content {
+    flex: 1;
+}
+
+.members-text-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.members-text-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.member-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.member-list li {
+    margin-bottom: 25px;
+}
+
+.member-profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.member-profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.member-details h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.member-details p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0 0 0;
+}
+
+.member-details .specialty {
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+}
+
+.members-image {
+    flex: 1;
+    height: 400px; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15); 
+}
+
+.members-image img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    display: block; 
+
+}

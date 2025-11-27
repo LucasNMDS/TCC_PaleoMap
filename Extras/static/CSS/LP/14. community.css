@@ -1,0 +1,150 @@
+/* ==============================================
+   14. ESTILOS DA SEÇÃO DE COMUNIDADE
+   - Títulos, parágrafos e cards de comunidade.
+   ============================================== */
+
+.community-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.community-section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.community-section p {
+    font-size: 18px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+.community-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.community-card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px 30px;
+    text-align: left;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+
+.community-card .card-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.community-card .card-icon-bg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.community-card .card-icon-bg .fa fa-users {
+    width: 28px;
+    height: 28px;
+}
+
+.community-card.card-forum .card-icon-bg { background-color: #337bff; }
+.community-card.card-forum .fa-users { color: #fff; }
+.community-card.card-events .card-icon-bg { background-color: #28a745; }
+.community-card.card-events .fa-calendar-alt { color: #fff; }
+.community-card.card-contribute .card-icon-bg { background-color: #8e44ad; }
+.community-card.card-contribute .fa-share-alt { color: #fff; }
+
+.community-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.community-card p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5;
+    margin: 0 0 25px 0;
+}
+
+.forum-stats, .event-list, .contribute-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+
+.forum-stats li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.forum-stats span {
+    font-weight: 600;
+}
+
+.event-list li h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.event-list li span {
+    display: block;
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.contribute-list {
+    font-size: 14px;
+    color: #555;
+}
+
+.contribute-list li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.contribute-list li::before {
+    content: '•';
+    color: #8e44ad;
+    position: absolute;
+    left: 0;
+}
+
+.community-btn {
+    display: block;
+    width: 90%; 
+    margin: 0 auto; 
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.community-btn-blue { background-color: #337bff; color: #fff; }
+.community-btn-blue:hover { background-color: #2a6edc; }
+.community-btn-green { background-color: #28a745; color: #fff; }
+.community-btn-green:hover { background-color: #218838; }
+.community-btn-purple { background-color: #8e44ad; color: #fff; }
+.community-btn-purple:hover { background-color: #7b3da1; }
