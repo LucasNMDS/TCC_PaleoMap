@@ -1,18 +1,5 @@
-O acesso a dados paleontológicos é frequentemente dificultado pela fragmentação das
-informações e pela complexidade técnica de bancos de dados especializados, o que cria
-barreiras para estudantes, pesquisadores e o público geral. Este trabalho apresenta o
-desenvolvimento da plataforma PaleoMap, uma aplicação web interativa projetada para
-superar esses desafios, oferecendo uma ferramenta visual e intuitiva para a exploração da
-distribuição paleogeográfica de espécies extintas. A metodologia adotada consistiu no
-desenvolvimento de uma aplicação client-side, utilizando tecnologias como HTML, CSS e
-JavaScript. A plataforma consome dados em tempo real da API (Interface de Programação de
-Aplicações) pública do Paleobiology Database (PBDB) e emprega a biblioteca Leaflet.js para
-a renderização de um mapa interativo, sobre o qual as ocorrências fósseis são
-georreferenciadas. Como resultado, a plataforma permite a filtragem dinâmica dos dados por
-período geológico, através de uma linha do tempo, por família taxonômica e por gênero. Para
-otimizar a performance diante do grande volume de registros, foi implementado um sistema
-de cache para guardar as informações por um período determinado de tempo ou até nova
-atualização. Conclui-se que o PaleoMap se constitui como uma ferramenta eficaz para a
-divulgação científica, traduzindo dados científicos complexos em uma experiência de
-aprendizado visual e acessível, contribuindo para a democratização do conhecimento
-paleontológico.
+Nome: Lucas Nascimento Mendes dos Santos
+Título: PaleoMap: PALEOMAP: PLATAFORMA INTERATIVA PARA VISUALIZAÇÃO E ANÁLISE DADISTRIBUIÇÃO PALEOGEOGRÁFICA DE ESPÉCIES
+Resumo: O acesso a dados paleontológicos é frequentemente dificultado pela fragmentação das informações e pela complexidade técnica de bancos de dados especializados, o que cria barreiras para estudantes, pesquisadores e o público geral. Este trabalho apresenta o desenvolvimento da plataforma PaleoMap, uma aplicação web interativa projetada para superar esses desafios, oferecendo uma ferramenta visual e intuitiva para a exploração da distribuição paleogeográfica de espécies extintas. A metodologia adotada consistiu no desenvolvimento de uma aplicação client-side, utilizando tecnologias como HTML, CSS e JavaScript. A plataforma consome dados em tempo real da API (Interface de Programação de Aplicações) pública do Paleobiology Database (PBDB) e emprega a biblioteca Leaflet.js para a renderização de um mapa interativo, sobre o qual as ocorrências fósseis são georreferenciadas. Como resultado, a plataforma permite a filtragem dinâmica dos dados por período geológico, através de uma linha do tempo, por família taxonômica e por gênero. Para otimizar a performance diante do grande volume de registros, foi implementado um sistema de cache para guardar as informações por um período determinado de tempo ou até nova atualização. Conclui-se que o PaleoMap se constitui como uma ferramenta eficaz para a divulgação científica, traduzindo dados científicos complexos em uma experiência de aprendizado visual e acessível, contribuindo para a democratização do conhecimento paleontológico.
+Orientador: Prof. Fabio Feliciano de Oliveira.
+Mês/Ano: Novembro de 2025.
